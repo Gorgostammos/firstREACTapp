@@ -13,10 +13,17 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <section>
         <button className="button" onClick={() => setCount(count + 1)}>
-          <span>Hover </span>
+          <span>Plus </span>
         </button>
+        <button className="button" onClick={() => setCount(count - 1)}>
+          <span>minus</span>
+        </button>
+        </section>
+        <section className="antall">
         <p>Antall trykk: {count}</p> 
+        </section>
         <h1>dette er mitt første React app</h1>
         <p>hei på deg jeg er jojo</p>
         <a
